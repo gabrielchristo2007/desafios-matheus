@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bem vindo</title>
+    <link rel="stylesheet" href="bemvindo.css">
+
+
+</head>
+<body>
+    <section id="sec">
+        <form action="tela3bemvindo.html" target="_blank">
+            <div id="dv">
+                <div id="login">
+                    <h1>Login</h1>
+                </div>
+                <div id="usu">
+                    <p>Ususario</p>
+                    <br>
+                    <label for="usuario1">
+                        <p><input type="text" class="cx" placeholder="Nome de Ususario" autofocus required minlength="5"></p>
+                    </label>
+                </div>
+                <div id="senha">
+                    <p>Senha</p>
+                    <br>
+                    <p><input type="password" class="cx" placeholder="Senha" required maxlength="8"></p>
+                </div>
+                <div id="btn">
+                   <input type="submit" id="botao" value="login" onclick="foi()" required>
+
+                    <p id="pbtn"><a href="tela2bemvindo.html" target="_blank" style="text-decoration: none;color: #000000;">Esqueceu senha?</a></p>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <script>
+        function foi() {
+            window.alert('login concluido')
+        }
+    </script>
+</body>
+</html>

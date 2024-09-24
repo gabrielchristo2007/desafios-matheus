@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+#geral{
+    background-color: lightskyblue;
+    width: 100vw;
+    height: 100vh;
+}
+#caixa{
+    width: 450px;
+    height: 300px;
+    background-color: lightslategray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    
+}
+#sec{
+    text-align: center;
+    margin-top: 140px;
+}
+#secc{
+    text-align: center;
+    margin-top: 20px;
+
+}
